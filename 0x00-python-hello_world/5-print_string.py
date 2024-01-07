@@ -2,4 +2,4 @@
 str = "Holberton School"
 print(f"{str}", end="")
 print(f"{str}", end="")
-print(f"{str} \n{str[:9]}")
+print(f"{str} \n{str[:9]}\n")
