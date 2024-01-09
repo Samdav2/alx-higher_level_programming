@@ -5,7 +5,7 @@ whole = str(number)
 last = whole[-1]
 digit = int(last)
 
-if digit < 0:
+if number < 0:
     digit = -digit
 
 if digit > 5:
