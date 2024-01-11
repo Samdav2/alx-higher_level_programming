@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
-    for i in range(str):
+    for i in enumerate(str):
         if i not in (i) == " ":
             i = ord(i)
             i -= 32
