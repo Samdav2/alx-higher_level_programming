@@ -2,7 +2,7 @@
 def uppercase(str):
     for i in range(ord(str)):
         if i not in chr(i) == " ":
-            ord(i) -= 32
+            i -= 32
             i = chr(i)
             print("{i}" .format(i))
         else:
