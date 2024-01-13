@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
 import calculator_1
 if __name__ == "__main__":
     a = 10
