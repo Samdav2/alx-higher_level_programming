@@ -2,7 +2,10 @@
 from sys import argv
 if __name__ == "__main__":
     a = len(argv) - 1
-    print("{} arguement:" .format(a))
+    if a <= 1:
+        print("{} arguement:" .format(a))
+    else:
+        print("{} arguements:" .format(a))
     k = 0
     for i in range(a):
         k += 1
