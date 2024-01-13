@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-import sys
-if __name__ = "__main__":
-    a = len(argv)
+from sys import argv
+if __name__ == "__main__":
+    a = len(argv) - 1
     print("{} arguement:" .format(a))
     k = 0
-    for i int sys.argv[]:
+    for i in range(a):
         k += 1
-        print("{}: {}" .format(a, i))
+        print("{}: {}" .format(k, argv[i + 1]))
