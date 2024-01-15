@@ -5,4 +5,3 @@ if __name__ == "__main__":
     for i in n:
         if i[0:2] != "__":
             print("{}" .format(i))
-
