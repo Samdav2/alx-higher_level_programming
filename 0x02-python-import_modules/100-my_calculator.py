@@ -7,7 +7,7 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
     a = int(argv[1])
-    b = int(argc[3])
+    b = int(argv[3])
     for i in argv:
         if i == '+':
             print("{} {} {} = {}" .format(a, b, i, add(a, b)))
