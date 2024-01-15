@@ -8,15 +8,14 @@ if __name__ == "__main__":
         exit(1)
     a = int(argv[1])
     b = int(argv[3])
-    for i in argv:
-        if i == +:
-            print("{} {} {} = {}" .format(a, b, i, add(a, b)))
-        elif i == -:
-            print("{} {} {} = {}" .format(a, b, i, sub(a, b)))
-        elif i == *:
-            print("{} {} {} = {}" .format(a, b, i, mul(a, b)))
-        elif i == /:
-            print("{} {} {} = {}" .format(a, b, i, mul(a, b)))
-        else:
-            print("Unknown operator. Available operators: +, -, * and /")
-            exit(1)
+    if argv[2] == "+":
+        print("{} {} {} = {}" .format(a, b, argv[2], add(a, b)))
+    elif argv[2] == "-":
+        print("{} {} {} = {}" .format(a, b, argv[2], sub(a, b)))
+    elif argv[2] == "*":
+        print("{} {} {} = {}" .format(a, b, argv[2], mul(a, b)))
+    elif argv[2] == "/":
+        print("{} {} {} = {}" .format(a, b, argv[2], mul(a, b)))
+    else:
+        print("Unknown operator. Available operators: +, -, * and /")
+        exit(1)
