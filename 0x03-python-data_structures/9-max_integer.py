@@ -6,6 +6,6 @@ def max_integer(my_list=[]):
         j += 1
         if i > my_list[a - j]:
             break
-            print("{}" .format(i))
+            return i
         else:
             continue 
