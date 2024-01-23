@@ -4,7 +4,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
         for a, b in zip(tuple_a, tuple_b):
             if a < 0:
                 tuple_a = 0
-            elif < 0:
+            elif b < 0:
                 tuple_b = 0
             else:
                 add = tuple(a + b)
