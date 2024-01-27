@@ -3,6 +3,7 @@ def only_diff_elements(set_1, set_2):
     new_set = []
     equal = []
     same = []
+    new_set2 = []
     for i in set_1:
         for j in set_2:
             if i == j:
@@ -11,5 +12,10 @@ def only_diff_elements(set_1, set_2):
                 equal.append(i)
                 equal.append(j)
     new_set = sorted(set(equal))
-    new_set.remove(same)
-    return new_set
+    for k in new_set:
+        for s in same:
+            if s == k:
+                continue
+            else:
+                new_set2.append(k)
+    return new_set2
