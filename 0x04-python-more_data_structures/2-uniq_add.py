@@ -5,7 +5,7 @@ def uniq_add(my_list=[]):
     for i in my_list:
         temp = len(new_list)
         for j in range(temp):
-            if i == neww_list[j]:
+            if i == new_list[j]:
                 continue
             else:
                 new_list.append(i)
