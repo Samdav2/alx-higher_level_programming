@@ -2,11 +2,12 @@
 def uniq_add(my_list=[]):
     index = 0
     new_list = []
+    index = 0
     for i in my_list:
-        temp = len(new_list)
-        for j in range(temp):
+        index += 1
+        for j in range(index):
             new_list.append(i)
-            if i == new_list(j):
+            if i == new_list(index):
                 continue
     add = 0
     for w in new_list:
