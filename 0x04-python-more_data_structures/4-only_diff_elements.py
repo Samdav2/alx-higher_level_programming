@@ -11,5 +11,5 @@ def only_diff_elements(set_1, set_2):
                 equal.append(i)
                 equal.append(j)
     new_set = sorted(set(equal))
-    del new_set[same]
+    new_set.remove(same)
     return new_set
