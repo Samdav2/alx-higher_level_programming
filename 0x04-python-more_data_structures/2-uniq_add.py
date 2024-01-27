@@ -3,7 +3,7 @@ def uniq_add(my_list=[]):
     new_list = []
     for i in my_list:
         new_list.append(i)
-        if i == new_list[i]:
+        if i == new_list:
             continue
     add = 0
     for w in new_list:
