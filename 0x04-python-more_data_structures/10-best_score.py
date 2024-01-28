@@ -7,8 +7,8 @@ def best_score(a_dictionary):
     for i in a_dictionary:
         j += 1
         a = i
-        if a < i and j != b:
-            continue
-        else:
+        if a > i and j == b:
             a = i
+        else:
+            continue
     return a
