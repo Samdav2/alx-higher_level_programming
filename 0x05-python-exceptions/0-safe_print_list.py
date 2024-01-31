@@ -5,7 +5,7 @@ def safe_print_list(my_list=[], x=0):
     p = 0
     y = 0
     try:
-        for i in range(x):
+        for i in range(x + 1):
             j += 1
             new_list.append(my_list[i])
         return new_list
