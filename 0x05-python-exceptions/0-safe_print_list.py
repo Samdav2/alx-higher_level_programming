@@ -8,6 +8,6 @@ def safe_print_list(my_list=[], x=0):
             print(end="")
         else:
             j += 1
-            print("{}" .format(my_list[i]))
+            print("{}" .format(my_list[i]), end="")
     print()
     return j
