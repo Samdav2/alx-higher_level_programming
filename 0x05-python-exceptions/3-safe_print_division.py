@@ -2,10 +2,10 @@
 def safe_print_division(a, b):
     c = 0
     try:
-       a / b
+        a / b
     except ZeroDivisionError:
         c = None
-        return c    
+        return c
     else:
         c = a / b
         return c
