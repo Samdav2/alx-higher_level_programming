@@ -5,9 +5,12 @@ def safe_print_list_integers(my_list=[], x=0):
         try:
             print("{:d}".format(my_list[j]), end="")
         except (IndexError, TypeError, ValueError):
-            print(end="")
-        else:
-            j += 1
+            if j < x:
+                print(end="")
+                j += 1
+                continue
+            else:
+                print(end="")
     print()
     return j
 
