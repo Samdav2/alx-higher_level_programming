@@ -2,8 +2,9 @@
 def safe_print_list_integers(my_list=[], x=0):
     j = 0
     for i in my_list:
+        j += 1
         try:
-            print("{:d}".format(my_list[i]), end="")
+            print("{:d}".format(my_list[j]), end="")
         except (IndexError, TypeError, ValueError):
             print(end="")
         else:
