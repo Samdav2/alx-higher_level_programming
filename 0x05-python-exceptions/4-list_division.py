@@ -11,6 +11,6 @@ def list_division(my_list_1, my_list_2, list_length):
         except (ValueError, TypeError):
             print("wrong type")
         else:
-            new_list = list(map(lambda x, y: x / y, my_list[i], my_list_2[i]))
+            new_list.append(list(map(lambda x, y: x / y, my_list[i], my_list_2[i])))
         finally:
             return new_list
