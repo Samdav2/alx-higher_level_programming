@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """ A class that defines squres with plrivate attribute"""
 
-class Square(self, size):
+class Square:
     """ A class that create an instance attribut"""
-    self.__size = None
+    def __init__(self, size):
+        """ A function that automatically initialize the class instance"""
+        self.__size = None
