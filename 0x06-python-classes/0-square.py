@@ -8,4 +8,4 @@ class Square:
     This class perfroms nothing
     simple
     """
-    square = None
+    pass
