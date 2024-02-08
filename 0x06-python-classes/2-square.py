@@ -6,7 +6,7 @@ class Square:
     """ The class name square that validate the size"""
     def __init__(self, size=0):
         """ This automatically Initialize the size and contetn"""
-        if not int(size):
+        if (isinstance(size, int) is false):
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
