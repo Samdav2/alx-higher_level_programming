@@ -6,3 +6,4 @@ class Square:
     def __init__(self, size):
         """ A function that automatically initialize the class instance"""
         self.__size = None
+        pass
