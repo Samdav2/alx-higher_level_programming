@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ python script that defines private instance and public Instance"""
+
+
 class Square:
     """ Creating the class named squared with different instances"""
     def __init__(self, size):
@@ -10,7 +12,5 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
-
-
     def area(self):
         return self.__size**2
