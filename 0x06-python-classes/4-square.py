@@ -30,7 +30,6 @@ class Square:
         else:
             self.__size = value
 
-
     def area(self):
         """ Retunr the area"""
         return self.__size**2
