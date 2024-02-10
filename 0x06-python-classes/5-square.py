@@ -31,7 +31,7 @@ class Square:
         """instances that returns the square of size"""
         return self.__size**2
 
-    def my_prinf(self):
+    def my_print(self):
         """ function that print # with the number of size"""
         for i in range(0, self.area):
             if i == self.size and i != self.area:
