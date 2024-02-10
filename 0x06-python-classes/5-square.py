@@ -33,7 +33,7 @@ class Square:
 
     def my_print(self):
         """ function that print # with the number of size"""
-        for i in range(0, self.area):
+        for i in range(0, Square.area):
             if i == self.size and i != self.area:
                 print("#")
             else:
