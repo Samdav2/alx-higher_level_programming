@@ -18,7 +18,6 @@ class Square:
         """ Getting the data"""
         return self.__size
 
-
     @size.setter
     def size(self, value):
         """ Settting the data"""
