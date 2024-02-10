@@ -1,4 +1,4 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 """ This is a pyhon script class that defines instances and modifies it attribut"""
 
 
