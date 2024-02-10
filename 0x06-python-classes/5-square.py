@@ -36,5 +36,6 @@ class Square:
         for i in range(0, self.area):
             if i == self.size and i != self.area:
                 print("#")
-            else print("#", end="")
+            else:
+                print("#", end="")
     print()
