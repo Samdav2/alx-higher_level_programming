@@ -13,8 +13,8 @@ def matrix_divided(matrix, div):
     lenght = len(matrix)
 
     for i in range(0, lenght):
-        if not isinstance(matrix[i], int) and not isinstance(matrix[i], float):
+        if not isinstance(matrix[[i]], int) and not isinstance(matrix[[i]], float):
             raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
         else:
-            new.append(matrix[i] / div)
+            new.append(matrix[[i]] / div)
     return new
