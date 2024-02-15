@@ -2,7 +2,7 @@
 """ This is a python scipt that divide matrix"""
 
 
-def matrix_dividend(matrix, div):
+def matrix_divided(matrix, div):
     """ This is a function that divide a matrix"""
     new = []
     if not isinstance(div, int) and not isinstance(div, float):
@@ -12,7 +12,7 @@ def matrix_dividend(matrix, div):
 
     lenght = len(matrix)
 
-    for i in rnage(0, lenght):
+    for i in range(0, lenght):
         if not isinstance(matrix[i], int) and not isinstance(matrix[i], float):
             raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
         else:
