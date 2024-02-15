@@ -5,7 +5,7 @@ The 0-add_integer module
 # python3 -m doctest -v ./tests/0-add_integer.txt
 
 importing the function
-	
+
 	>>> from 0-add_integer import add_integer
 
 SUCCESS Operations
@@ -14,8 +14,10 @@ SUCCESS Operations
 
 	>>> add_integer(100, -2)
 	98
+
 	>>> add_integer(2)
 	100
+
 	>>> add_integer(100.3, -2)
 	98
 
