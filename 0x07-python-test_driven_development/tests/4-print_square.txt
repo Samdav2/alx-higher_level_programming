@@ -1,0 +1,40 @@
+====================================
+This test the print square function
+====================================
+
+We will be testing the positive and negative aspect of this project
+
+-------------------------------------
+
+Let's import the module
+
+	>>> from 4-print_square import print_square
+
+-----------------------------------------------------
+
+SUCCESS RATES
+	>>> print_square(4)
+	####
+	####
+	####
+	####
+
+	>>> print_square(10)
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+
+	>>> print_square(1)
+	#
+
+
+Failure Rates
+	>>> print_square(-1)
+	size must be >= 0
