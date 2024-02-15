@@ -10,11 +10,19 @@ def matrix_divided(matrix, div):
     if div == 0:
         raise ZeroDivisionError("division by zero")
 
-    lenght = len(matrix)
+    lenght = len(matrix[0])
 
-    for i in range(0, lenght):
-        if not isinstance(matrix[[i]], int) and not isinstance(matrix[[i]], float):
+    for row in matrix:
+        if type(row) is not list or len(row) == 0:
             raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
-        else:
-            new.append(matrix[[i]] / div)
+        if len(row) != lenght:
+            raise TypeError("Each row of the matrix must have the same size")
+
+        new_row = []
+        for cell in row:
+            if (not isinstance(cell, int) and not isinstance(cell, float)):
+                raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+            new_row.append(round(cell / div, 2))
+        new.append(new_row)
     return new
+
