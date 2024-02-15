@@ -4,6 +4,7 @@
 
 def matrix_divided(matrix, div):
     """ This is a function that divide a matrix"""
+
     new = []
     if not isinstance(div, int) and not isinstance(div, float):
         raise TypeError("div must be a number")
@@ -25,4 +26,3 @@ def matrix_divided(matrix, div):
             new_row.append(round(cell / div, 2))
         new.append(new_row)
     return new
-
