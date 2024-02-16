@@ -9,6 +9,7 @@ def text_indentation(text):
         raise TypeError("text must be a string")
     for i in text:
         if i == "?" or i == "." or i == "," or i == ":":
+            print("{}".format(i), end="")
             print()
             print()
         else:
