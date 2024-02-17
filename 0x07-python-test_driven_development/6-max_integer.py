@@ -11,6 +11,6 @@ def max_integer(list=[]):
 
     new = []
 
-    new = set(list)
+    new = sorted(list)
     return new[-1]
 
