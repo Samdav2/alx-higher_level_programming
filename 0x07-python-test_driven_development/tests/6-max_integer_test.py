@@ -13,8 +13,8 @@ class TestingMaxInteger(unittest.TestCase):
     "run the test with python3 -m unittest -v tests.6-max_integer_test"""
 
     def test_module_doctring(self):
-        moduleDc = __import__('6-max_integer').__doc__
-        self.assertTrue(len(noduleDoc) > 1)
+        moduleDoc = __import__('6-max_integer').__doc__
+        self.assertTrue(len(moduleDoc) > 1)
 
     def test_function_doctstring(self):
         functionDoc = __import__('6-max_integer').max_integer.__doc__
