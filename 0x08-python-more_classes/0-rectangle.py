@@ -6,4 +6,3 @@ class Rectangle:
     """Empty Class"""
     def __init__(self):
         pass
-
