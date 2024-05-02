@@ -45,6 +45,6 @@ class Rectangle:
 
         for i in range (self.__heigh):
             for w in range (self.__width):
-                if  w < self.__width and no self.__width:
+                if  w < self.__width and not self.__width:
                     print(str("#"))
                 print("#", end ="")
