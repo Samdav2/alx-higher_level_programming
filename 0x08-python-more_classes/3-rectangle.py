@@ -43,8 +43,8 @@ class Rectangle:
                 return 0
             return (self.__height + self.__width) * 2
 
-        for i in range (self.__height):
-            for w in range (self.__width):
+        for i in range (self.height):
+            for w in range (self.width):
                 if  w < self.__width and not self.__width:
                     print(str("#"))
                 print("#", end ="")
