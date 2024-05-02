@@ -2,4 +2,5 @@
 """ An empty class that defines a rectabgle"""
 
 class Rectangle:
-    pass
+    rectangle = " a shap with unequal space"
+
