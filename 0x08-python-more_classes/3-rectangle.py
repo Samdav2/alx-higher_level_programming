@@ -49,4 +49,4 @@ class Rectangle:
                 for w in range (self.width):
                     if  w < self.__width and not self.__width:
                         print(str("#"))
-                 print("#", end ="")
+                    print("#", end ="")
