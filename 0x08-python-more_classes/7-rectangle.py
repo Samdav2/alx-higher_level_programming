@@ -11,8 +11,8 @@ class Rectangle:
     print_symbol = '#'
 
     @classmethod
-    def set_attribute(cls, new_value)
-    cls.print_symbol = new_value
+    def set_attribute(cls, new_value):
+        cls.print_symbol = new_value
 
     def __init__(self, width=0, height=0):
         self.width = width
