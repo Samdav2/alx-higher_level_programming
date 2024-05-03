@@ -10,10 +10,6 @@ class Rectangle:
     number_of_instances = 0
     print_symbol = '#'
 
-    @classmethod
-    def set_attribute(cls, new_value):
-        cls.print_symbol = new_value
-
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
@@ -57,7 +53,7 @@ class Rectangle:
             return s
         for i in range(self.height):
             for j in range(self.width):
-                s += ''
+                s += str(self.print_symbol)
             if i != self.height - 1:
                 s += '\n'
         return s
