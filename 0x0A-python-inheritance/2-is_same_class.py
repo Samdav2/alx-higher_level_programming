@@ -3,7 +3,9 @@
 
 
 def is_same_class(obj, a_class):
-    if isinstance(obj, a_class):
+    """ This is class that check if a class is of child"""
+
+    if type(obj) is a_class
         return True
-    else:
-        return False
+    
+    return False
