@@ -2,7 +2,7 @@
 """ This is a python function that returns python keys"""
 
 
-def Student:
+class Student:
     """ This is a class that defines public variables"""
 
     def __init__(self, first_name, last_name, age):
