@@ -21,6 +21,3 @@ def Student:
                     dict[attr] = self.__dict__[attr]
                 return dict
             return self.__dict__
-
-
-
