@@ -11,13 +11,7 @@ class Student:
         self.age = age
 
     def to_json(self, attrs=None):
-        if type(attrs) is list:
-            dict = {}
-            for attr in attrs:
-                if type(attr) is not str:
-                    return self.__dict__
-            for attr in attrs:
-                if attr in self.__dict__.keys():
-                    dict[attr] = self.__dict__[attr]
-                return dict
+        if type(attrs) is list and != None:
+            return self.__dict__[attrs]
+        else:
             return self.__dict__
