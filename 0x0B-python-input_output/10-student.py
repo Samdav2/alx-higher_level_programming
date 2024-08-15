@@ -14,4 +14,4 @@ class Student:
         if type(attrs) is list and not None:
             return self.__dict__[attrs]
         else:
-            return self.__dict__
+            return {attr: self.__dict__[attr] for attr in attrs if attr in self.__dict__}
